@@ -385,7 +385,7 @@ const RATING_ITEMS = [
   { id: "entry.1225708827", label: "Program na zpětnou vazbu", notesId: "entry.50380162" },
   { id: "entry.709984681", label: "Ideální rádce", notesId: "entry.1324367055" },
   { id: "entry.1387118574", label: "Vysvětlování pravidel", notesId: "entry.1270461383" },
-  { id: "entry.397210787", label: "Příprava na družinovku", notesId: "entry.609423421" },
+  { id: "entry.397210787", label: "Příprava družinovky", notesId: "entry.609423421" },
   { id: "entry.1344712436", label: "Workshopy", notesId: "entry.1142233594" },
   { id: "entry.1559808078", label: "Kahoot", notesId: "entry.1496757599" },
   { id: "entry.1608838366", label: "Čajovna", notesId: "entry.1886647764" },
