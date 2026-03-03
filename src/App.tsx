@@ -154,20 +154,20 @@ function WalkingDino() {
           <svg width="300" height="260" viewBox="0 0 400 350">
             <defs>
               <filter id="shadow1" x="-10%" y="-10%" width="120%" height="120%">
-                <feDropShadow dx="2" dy="5" stdDeviation="3" flood-opacity="0.15" />
+                <feDropShadow dx="2" dy="5" stdDeviation="3" floodOpacity="0.15" />
               </filter>
             </defs>
             <g filter="url(#shadow1)">
-              <path d="M 160 220 L 160 285 L 175 285" fill="none" stroke="#512DA8" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
-              <path d="M 240 220 L 240 285 L 255 285" fill="none" stroke="#512DA8" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
-              <path d="M 140 200 L 60 240" fill="none" stroke="#7E57C2" stroke-width="35" stroke-linecap="round"/>
-              <path d="M 150 190 L 240 170 L 250 200 L 240 220 L 150 220 Z" fill="#7E57C2" stroke="#7E57C2" stroke-width="45" stroke-linejoin="round"/>
-              <path d="M 150 232 L 246 230 L 250 225" fill="none" stroke="#B39DDB" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M 160 220 L 160 285 L 175 285" fill="none" stroke="#512DA8" strokeWidth="22" strokeLinejoin="round" strokeLinecap="round"/>
+              <path d="M 240 220 L 240 285 L 255 285" fill="none" stroke="#512DA8" strokeWidth="22" strokeLinejoin="round" strokeLinecap="round"/>
+              <path d="M 140 200 L 60 240" fill="none" stroke="#7E57C2" strokeWidth="35" strokeLinecap="round"/>
+              <path d="M 150 190 L 240 170 L 250 200 L 240 220 L 150 220 Z" fill="#7E57C2" stroke="#7E57C2" strokeWidth="45" strokeLinejoin="round"/>
+              <path d="M 150 232 L 246 230 L 250 225" fill="none" stroke="#B39DDB" strokeWidth="15" strokeLinecap="round" strokeLinejoin="round"/>
               <g>
                 <animateTransform attributeName="transform" type="rotate" values="0 230 160; 6 230 160; 0 230 160" dur="6s" repeatCount="indefinite"/>
-                <path d="M 250 160 L 260 80" fill="none" stroke="#7E57C2" stroke-width="35" stroke-linecap="round"/>
-                <path d="M 290 70 L 260 80 L 260 100 L 310 100 Z" fill="#7E57C2" stroke="#7E57C2" stroke-width="20" stroke-linejoin="round"/>
-                <line x1="290" y1="98" x2="319" y2="103" stroke="#512DA8" stroke-width="3" stroke-linecap="round"/>
+                <path d="M 250 160 L 260 80" fill="none" stroke="#7E57C2" strokeWidth="35" strokeLinecap="round"/>
+                <path d="M 290 70 L 260 80 L 260 100 L 310 100 Z" fill="#7E57C2" stroke="#7E57C2" strokeWidth="20" strokeLinejoin="round"/>
+                <line x1="290" y1="98" x2="319" y2="103" stroke="#512DA8" strokeWidth="3" strokeLinecap="round"/>
                 <circle cx="290" cy="78" r="6" fill="#FFF"/>
                 <circle cx="292" cy="78" r="2.5" fill="#111"/>
                 <circle cx="293" cy="77" r="1" fill="#FFF"/>
@@ -175,8 +175,8 @@ function WalkingDino() {
                   <animate attributeName="height" values="0; 18; 0; 0" keyTimes="0; 0.05; 0.1; 1" dur="5.5s" repeatCount="indefinite"/>
                 </rect>
               </g>
-              <path d="M 170 220 L 170 285 L 185 285" fill="none" stroke="#7E57C2" stroke-width="25" stroke-linejoin="round" stroke-linecap="round"/>
-              <path d="M 225 220 L 225 285 L 240 285" fill="none" stroke="#7E57C2" stroke-width="25" stroke-linejoin="round" stroke-linecap="round"/>
+              <path d="M 170 220 L 170 285 L 185 285" fill="none" stroke="#7E57C2" strokeWidth="25" strokeLinejoin="round" strokeLinecap="round"/>
+              <path d="M 225 220 L 225 285 L 240 285" fill="none" stroke="#7E57C2" strokeWidth="25" strokeLinejoin="round" strokeLinecap="round"/>
               <circle cx="170" cy="200" r="6" fill="#512DA8" opacity="0.3"/>
               <circle cx="200" cy="180" r="5" fill="#512DA8" opacity="0.3"/>
               <circle cx="230" cy="205" r="7" fill="#512DA8" opacity="0.3"/>
@@ -191,28 +191,28 @@ function WalkingDino() {
           <svg width="300" height="260" viewBox="0 0 400 350" style={{ transform: 'scaleX(-1)' }}>
             <defs>
               <filter id="shadow2" x="-10%" y="-10%" width="120%" height="120%">
-                <feDropShadow dx="2" dy="5" stdDeviation="3" flood-opacity="0.15" />
+                <feDropShadow dx="2" dy="5" stdDeviation="3" floodOpacity="0.15" />
               </filter>
             </defs>
             <g filter="url(#shadow2)">
-              <path d="M 170 230 L 160 285 L 180 285" fill="none" stroke="#C62828" stroke-width="20" stroke-linejoin="round" stroke-linecap="round"/>
-              <path d="M 215 230 L 225 260 L 240 270" fill="none" stroke="#C62828" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
-              <path d="M 130 200 Q 180 70 230 200 Z" fill="#FFCA28" stroke="#FFB300" stroke-width="8" stroke-linejoin="round">
+              <path d="M 170 230 L 160 285 L 180 285" fill="none" stroke="#C62828" strokeWidth="20" strokeLinejoin="round" strokeLinecap="round"/>
+              <path d="M 215 230 L 225 260 L 240 270" fill="none" stroke="#C62828" strokeWidth="8" strokeLinejoin="round" strokeLinecap="round"/>
+              <path d="M 130 200 Q 180 70 230 200 Z" fill="#FFCA28" stroke="#FFB300" strokeWidth="8" strokeLinejoin="round">
                 <animate attributeName="fill" values="#FFCA28; #FFE082; #FFCA28" dur="4s" repeatCount="indefinite"/>
               </path>
-              <line x1="155" y1="200" x2="160" y2="140" stroke="#FFB300" stroke-width="5" stroke-linecap="round"/>
-              <line x1="180" y1="200" x2="180" y2="130" stroke="#FFB300" stroke-width="5" stroke-linecap="round"/>
-              <line x1="205" y1="200" x2="200" y2="140" stroke="#FFB300" stroke-width="5" stroke-linecap="round"/>
-              <path d="M 140 210 L 50 230" fill="none" stroke="#EF5350" stroke-width="35" stroke-linecap="round"/>
-              <path d="M 130 210 L 230 200 L 220 230 L 150 230 Z" fill="#EF5350" stroke="#EF5350" stroke-width="40" stroke-linejoin="round"/>
-              <path d="M 140 230 L 220 230" fill="none" stroke="#FFCDD2" stroke-width="12" stroke-linecap="round"/>
-              <path d="M 250 180 L 280 180 L 310 190 L 305 205 L 250 205 Z" fill="#EF5350" stroke="#EF5350" stroke-width="20" stroke-linejoin="round"/>
+              <line x1="155" y1="200" x2="160" y2="140" stroke="#FFB300" strokeWidth="5" strokeLinecap="round"/>
+              <line x1="180" y1="200" x2="180" y2="130" stroke="#FFB300" strokeWidth="5" strokeLinecap="round"/>
+              <line x1="205" y1="200" x2="200" y2="140" stroke="#FFB300" strokeWidth="5" strokeLinecap="round"/>
+              <path d="M 140 210 L 50 230" fill="none" stroke="#EF5350" strokeWidth="35" strokeLinecap="round"/>
+              <path d="M 130 210 L 230 200 L 220 230 L 150 230 Z" fill="#EF5350" stroke="#EF5350" strokeWidth="40" strokeLinejoin="round"/>
+              <path d="M 140 230 L 220 230" fill="none" stroke="#FFCDD2" strokeWidth="12" strokeLinecap="round"/>
+              <path d="M 250 180 L 280 180 L 310 190 L 305 205 L 250 205 Z" fill="#EF5350" stroke="#EF5350" strokeWidth="20" strokeLinejoin="round"/>
               <circle cx="280" cy="205" r="4" fill="#EF5350"/>
-              <line x1="270" y1="200" x2="314" y2="205" stroke="#C62828" stroke-width="3" stroke-linecap="round"/>
-              <path d="M 150 230 L 140 285 L 160 285" fill="none" stroke="#EF5350" stroke-width="20" stroke-linejoin="round" stroke-linecap="round"/>
+              <line x1="270" y1="200" x2="314" y2="205" stroke="#C62828" strokeWidth="3" strokeLinecap="round"/>
+              <path d="M 150 230 L 140 285 L 160 285" fill="none" stroke="#EF5350" strokeWidth="20" strokeLinejoin="round" strokeLinecap="round"/>
               <g>
                 <animateTransform attributeName="transform" type="rotate" values="0 205 230; -20 205 230; 0 205 230" dur="3.5s" repeatCount="indefinite"/>
-                <path d="M 205 230 L 215 260 L 230 270" fill="none" stroke="#EF5350" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+                <path d="M 205 230 L 215 260 L 230 270" fill="none" stroke="#EF5350" strokeWidth="10" strokeLinejoin="round" strokeLinecap="round"/>
               </g>
               <circle cx="160" cy="200" r="5" fill="#C62828" opacity="0.3"/>
               <circle cx="190" cy="190" r="6" fill="#C62828" opacity="0.3"/>
@@ -234,29 +234,29 @@ function WalkingDino() {
           <svg width="300" height="260" viewBox="0 0 400 350">
             <defs>
               <filter id="shadow3" x="-10%" y="-10%" width="120%" height="120%">
-                <feDropShadow dx="2" dy="5" stdDeviation="3" flood-opacity="0.15" />
+                <feDropShadow dx="2" dy="5" stdDeviation="3" floodOpacity="0.15" />
               </filter>
             </defs>
             <g filter="url(#shadow3)">
-              <path d="M 130 230 L 120 285 L 140 285" fill="none" stroke="#00695C" stroke-width="20" stroke-linejoin="round" stroke-linecap="round"/>
-              <path d="M 230 230 L 220 285 L 240 285" fill="none" stroke="#00695C" stroke-width="20" stroke-linejoin="round" stroke-linecap="round"/>
-              <path d="M 130 200 L 145 150 L 160 190 Z" fill="#F57C00" stroke="#E65100" stroke-width="4" stroke-linejoin="round"/>
-              <path d="M 180 180 L 200 130 L 220 190 Z" fill="#F57C00" stroke="#E65100" stroke-width="4" stroke-linejoin="round"/>
+              <path d="M 130 230 L 120 285 L 140 285" fill="none" stroke="#00695C" strokeWidth="20" strokeLinejoin="round" strokeLinecap="round"/>
+              <path d="M 230 230 L 220 285 L 240 285" fill="none" stroke="#00695C" strokeWidth="20" strokeLinejoin="round" strokeLinecap="round"/>
+              <path d="M 130 200 L 145 150 L 160 190 Z" fill="#F57C00" stroke="#E65100" strokeWidth="4" strokeLinejoin="round"/>
+              <path d="M 180 180 L 200 130 L 220 190 Z" fill="#F57C00" stroke="#E65100" strokeWidth="4" strokeLinejoin="round"/>
               <g>
                 <animateTransform attributeName="transform" type="rotate" values="0 130 210; -8 130 210; 0 130 210" dur="4s" repeatCount="indefinite"/>
-                <path d="M 60 220 L 40 200 M 40 220 L 20 200" fill="none" stroke="#FF9800" stroke-width="6" stroke-linecap="round"/>
-                <path d="M 140 230 L 40 230" fill="none" stroke="#009688" stroke-width="35" stroke-linecap="round"/>
-                <path d="M 60 235 L 45 250 M 40 235 L 25 250" fill="none" stroke="#FF9800" stroke-width="6" stroke-linecap="round"/>
+                <path d="M 60 220 L 40 200 M 40 220 L 20 200" fill="none" stroke="#FF9800" strokeWidth="6" strokeLinecap="round"/>
+                <path d="M 140 230 L 40 230" fill="none" stroke="#009688" strokeWidth="35" strokeLinecap="round"/>
+                <path d="M 60 235 L 45 250 M 40 235 L 25 250" fill="none" stroke="#FF9800" strokeWidth="6" strokeLinecap="round"/>
               </g>
-              <path d="M 120 220 L 170 200 L 200 200 L 250 220 L 230 240 L 140 240 Z" fill="#009688" stroke="#009688" stroke-width="45" stroke-linejoin="round"/>
-              <path d="M 150 187 L 175 130 L 195 180 Z" fill="#FFB300" stroke="#FF9800" stroke-width="4" stroke-linejoin="round"/>
-              <path d="M 210 180 L 230 150 L 250 195 Z" fill="#FFB300" stroke="#FF9800" stroke-width="4" stroke-linejoin="round"/>
-              <path d="M 110 200 L 120 160 L 135 190 Z" fill="#FFB300" stroke="#FF9800" stroke-width="4" stroke-linejoin="round"/>
-              <path d="M 140 240 L 230 240" fill="none" stroke="#4DB6AC" stroke-width="15" stroke-linecap="round"/>
-              <path d="M 270 215 L 300 225 L 310 240 L 270 240 Z" fill="#009688" stroke="#009688" stroke-width="22" stroke-linejoin="round"/>
-              <line x1="290" y1="240" x2="320" y2="245" stroke="#00695C" stroke-width="3" stroke-linecap="round"/>
-              <path d="M 150 260 L 145 285 L 165 285" fill="none" stroke="#009688" stroke-width="20" stroke-linejoin="round" stroke-linecap="round"/>
-              <path d="M 205 260 L 205 285 L 225 285" fill="none" stroke="#009688" stroke-width="20" stroke-linejoin="round" stroke-linecap="round"/>
+              <path d="M 120 220 L 170 200 L 200 200 L 250 220 L 230 240 L 140 240 Z" fill="#009688" stroke="#009688" strokeWidth="45" strokeLinejoin="round"/>
+              <path d="M 150 187 L 175 130 L 195 180 Z" fill="#FFB300" stroke="#FF9800" strokeWidth="4" strokeLinejoin="round"/>
+              <path d="M 210 180 L 230 150 L 250 195 Z" fill="#FFB300" stroke="#FF9800" strokeWidth="4" strokeLinejoin="round"/>
+              <path d="M 110 200 L 120 160 L 135 190 Z" fill="#FFB300" stroke="#FF9800" strokeWidth="4" strokeLinejoin="round"/>
+              <path d="M 140 240 L 230 240" fill="none" stroke="#4DB6AC" strokeWidth="15" strokeLinejoin="round"/>
+              <path d="M 270 215 L 300 225 L 310 240 L 270 240 Z" fill="#009688" stroke="#009688" strokeWidth="22" strokeLinejoin="round"/>
+              <line x1="290" y1="240" x2="320" y2="245" stroke="#00695C" strokeWidth="3" strokeLinecap="round"/>
+              <path d="M 150 260 L 145 285 L 165 285" fill="none" stroke="#009688" strokeWidth="20" strokeLinejoin="round" strokeLinecap="round"/>
+              <path d="M 205 260 L 205 285 L 225 285" fill="none" stroke="#009688" strokeWidth="20" strokeLinejoin="round" strokeLinecap="round"/>
               <circle cx="160" cy="210" r="5" fill="#00695C" opacity="0.3"/>
               <circle cx="190" cy="190" r="6" fill="#00695C" opacity="0.3"/>
               <circle cx="210" cy="220" r="4" fill="#00695C" opacity="0.3"/>
@@ -277,23 +277,23 @@ function WalkingDino() {
           <svg width="300" height="260" viewBox="0 0 400 350" style={{ transform: 'scaleX(-1)' }}>
             <defs>
               <filter id="shadow4" x="-10%" y="-10%" width="120%" height="120%">
-                <feDropShadow dx="2" dy="5" stdDeviation="3" flood-opacity="0.15" />
+                <feDropShadow dx="2" dy="5" stdDeviation="3" floodOpacity="0.15" />
               </filter>
             </defs>
             <g filter="url(#shadow4)">
-              <path d="M 220 180 L 235 200" fill="none" stroke="#2E7D32" stroke-width="8" stroke-linecap="round"/>
-              <path d="M 170 230 L 170 285 L 190 285" fill="none" stroke="#2E7D32" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
-              <path d="M 160 210 L 70 240" fill="none" stroke="#4CAF50" stroke-width="35" stroke-linecap="round"/>
-              <path d="M 150 220 L 220 180 L 220 210 L 200 230 L 160 230 Z" fill="#4CAF50" stroke="#4CAF50" stroke-width="40" stroke-linejoin="round"/>
-              <path d="M 160 240 L 205 240 L 230 215 L 230 204" fill="none" stroke="#81C784" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M 220 180 L 240 130 L 270 130 L 300 150 L 295 170 L 230 170 Z" fill="#4CAF50" stroke="#4CAF50" stroke-width="32" stroke-linejoin="round"/>
-              <polyline points="270,170 275,178 280,170 285,178 290,170 295,178 300,170 305,178 310,170" fill="none" stroke="#FFF" stroke-width="2" stroke-linejoin="round"/>
-              <line x1="260" y1="170" x2="310" y2="170" stroke="#2E7D32" stroke-width="4" stroke-linecap="round"/>
+              <path d="M 220 180 L 235 200" fill="none" stroke="#2E7D32" strokeWidth="8" strokeLinecap="round"/>
+              <path d="M 170 230 L 170 285 L 190 285" fill="none" stroke="#2E7D32" strokeWidth="22" strokeLinejoin="round" strokeLinecap="round"/>
+              <path d="M 160 210 L 70 240" fill="none" stroke="#4CAF50" strokeWidth="35" strokeLinecap="round"/>
+              <path d="M 150 220 L 220 180 L 220 210 L 200 230 L 160 230 Z" fill="#4CAF50" stroke="#4CAF50" strokeWidth="40" strokeLinejoin="round"/>
+              <path d="M 160 240 L 205 240 L 230 215 L 230 204" fill="none" stroke="#81C784" strokeWidth="20" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M 220 180 L 240 130 L 270 130 L 300 150 L 295 170 L 230 170 Z" fill="#4CAF50" stroke="#4CAF50" strokeWidth="32" strokeLinejoin="round"/>
+              <polyline points="270,170 275,178 280,170 285,178 290,170 295,178 300,170 305,178 310,170" fill="none" stroke="#FFF" strokeWidth="2" strokeLinejoin="round"/>
+              <line x1="260" y1="170" x2="310" y2="170" stroke="#2E7D32" strokeWidth="4" strokeLinecap="round"/>
               <g>
                 <animateTransform attributeName="transform" type="rotate" values="0 225 205; -15 225 205; 0 225 205" dur="3s" repeatCount="indefinite"/>
-                <path d="M 220 205 L 240 215 L 255 215" fill="none" stroke="#4CAF50" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+                <path d="M 220 205 L 240 215 L 255 215" fill="none" stroke="#4CAF50" strokeWidth="10" strokeLinejoin="round" strokeLinecap="round"/>
               </g>
-              <path d="M 150 230 L 145 285 L 165 285" fill="none" stroke="#4CAF50" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+              <path d="M 150 230 L 145 285 L 165 285" fill="none" stroke="#4CAF50" strokeWidth="22" strokeLinejoin="round" strokeLinecap="round"/>
               <circle cx="160" cy="200" r="5" fill="#2E7D32" opacity="0.3"/>
               <circle cx="200" cy="180" r="4" fill="#2E7D32" opacity="0.3"/>
               <circle cx="190" cy="210" r="6" fill="#2E7D32" opacity="0.3"/>
