@@ -405,7 +405,13 @@ const TEXT_ITEMS = [
 
 export default function App() {
   const [step, setStep] = useState(0);
-  const [formData, setFormData] = useState<Record<string, string>>({});
+  const [formData, setFormData] = useState<Record<string, string>>(() => {
+    const initial: Record<string, string> = {};
+    RATING_ITEMS.forEach(item => {
+      initial[item.id] = "3";
+    });
+    return initial;
+  });
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const formRef = useRef<HTMLFormElement>(null);
